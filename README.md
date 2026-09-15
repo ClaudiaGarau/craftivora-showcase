@@ -48,3 +48,8 @@ Claude Code supported architectural analysis, staged implementation, test genera
 Copyright © 2026 Claudia Garau. All rights reserved.
 
 The implementation, prompts, workflows, datasets, commercial assets and infrastructure configuration are proprietary and are not distributed with this showcase.
+
+
+## Portfolio code samples
+
+The `portfolio-review` branch contains focused TypeScript excerpts and tests for validated catalog jobs, deterministic slugs and explicit human approval gates. AI providers, storage, prompts and production infrastructure remain private.
