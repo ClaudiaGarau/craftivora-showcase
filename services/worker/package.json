@@ -1,0 +1,1 @@
+{"name":"@ade/worker","version":"1.0.0","private":true,"type":"module","scripts":{"build":"tsc -p tsconfig.json","test":"vitest run --passWithNoTests"},"dependencies":{"redis":"5.8.2"},"devDependencies":{"@types/node":"24.3.0"}}

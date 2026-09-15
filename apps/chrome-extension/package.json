@@ -1,0 +1,1 @@
+{"name":"@ade/chrome-extension","version":"1.0.0","private":true,"scripts":{"build":"node build.mjs","package":"node build.mjs --zip","test":"vitest run --passWithNoTests"}}

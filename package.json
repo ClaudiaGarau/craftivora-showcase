@@ -1,0 +1,24 @@
+{
+  "name": "ade-platform",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "npm@11.17.0",
+  "workspaces": ["apps/*", "services/*", "packages/*"],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "dev": "npm run dev -w @ade/api",
+    "test:e2e": "npm run test:e2e -w @ade/web",
+    "package:extension": "npm run package -w @ade/chrome-extension",
+    "package:desktop": "npm run tauri:build -w @ade/desktop"
+  },
+  "devDependencies": {
+    "typescript": "5.9.2",
+    "vitest": "3.2.7"
+  },
+  "overrides": {
+    "vite": "7.3.6",
+    "esbuild": "0.25.12"
+  }
+}
